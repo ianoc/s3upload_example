@@ -9,7 +9,7 @@ edition = "2018"
 [dependencies]
 anyhow = "1.0.40"
 bytes = "1.0.1"
-tokio = {version = "1.7.0", features = ["full"]}
+tokio = {version = "1.16.1", features = ["full"]}
 rusoto_s3 = "0.46.0"
 futures = "0.3.15"
 rusoto_core = "0.46.0"
